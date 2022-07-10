@@ -1,0 +1,365 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    position: static;
+    background: #6425CB;
+    height: 967px;
+    padding-top: 10px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+span {
+    color: #F4AB00;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.menu {
+    margin-top: 70px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+
+    a {
+        margin-left: 30px;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        color: black;
+    }
+
+    a:first-child {
+        margin-right: 200px;
+    }
+
+    a:nth-child(8n) {
+        margin-right: 200px;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #F4AB00;
+        border-radius: 32px;
+        width: 100px;
+        height: 40px;
+    }
+}
+
+
+
+.header__content {
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        width: 415px;
+        height: 200px;
+        font-size: 60px;
+        color: #F4AB00;
+    }
+
+    span {
+        color: yellow;
+    }
+
+    p {
+        width: 410px;
+        height: 136px;
+        margin-right: 125px;
+        margin-top: 40px;
+        font-size: 18px;
+        color: white;
+    }
+
+    .text__btn {
+        margin-top: 25px;
+        height: 55px;
+        width: 190px;
+        display: flex;
+        background: #F4AB00;
+        border-radius: 32px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+
+    }
+}
+
+.header__about {
+    display: flex;
+    padding-bottom: 70px;
+    margin-top: 60px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 9px 9px 35px rgba(56, 11, 113, 0.1);
+
+    .about__left {
+        display: flex;
+        width: 500px;
+        height: 320px;
+        margin-left: 80px;
+        margin-top: 100px;
+        margin-right: 30px;
+        justify-content: center;
+        flex-direction: column;
+
+        h2 {
+            font-size: 42px;
+            color: #2C1258;
+        }
+
+        p {
+            font-size: 18px;
+            color: #2C1258;
+        }
+
+    }
+
+    .about__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+        height: 320px;
+        margin-top: 100px;
+        margin-left: 100px;
+
+        h2 {
+            font-size: 20px;
+            color: #2C1258;
+        }
+
+        p {
+            font-size: 18px;
+            color: #2C1258;
+            width: 300px;
+        }
+    }
+
+}
+
+
+.header__results {
+
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 150px;
+
+    &__text {
+        margin-left: 80px;
+
+        h2 {
+            font-size: 42px;
+            color: #2C1258;
+        }
+
+        p {
+            font-size: 18px;
+            color: #2C1258;
+            font-weight: 700;
+        }
+
+
+
+    }
+
+    ol {
+        list-style: none;
+        font-weight: 700;
+    }
+
+    ol>li {
+        padding-left: 20px;
+        position: relative;
+        margin: 10px;
+    }
+
+    ol>li:before {
+        content: '✔';
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: rgb(98, 1, 209);
+    }
+}
+
+
+.header__results {
+    display: flex;
+    width: 1160px;
+
+}
+
+.header__reasons {
+    display: flex;
+}
+
+.header__reasons__text {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 500px;
+    margin-right: 70px;
+
+    h2 {
+        font-size: 42px;
+        height: 112px;
+    }
+
+    p {
+        width: 535px;
+        height: 105px;
+        font-size: 18px;
+        color: #604B83;
+        font-weight: 700;
+    }
+}
+
+
+////////////////////////////////////////////////////////////////////////////
+
+
+
+.intro__about__us {
+    display: flex;
+    background: #6425CB;
+    padding-bottom: 100px;
+}
+
+
+.about__us_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: #F4AB00;
+    border-radius: 32px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+
+.about__us__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 465px;
+    height: 665px;
+    margin-left: 30px;
+    margin-right: 200px;
+
+    h2 {
+        font-size: 42px;
+        color: white;
+    }
+
+    p {
+        font-size: 18px;
+        color: white;
+    }
+
+
+}
+
+.about__us__right {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+.right__text_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 300px;
+    background: white;
+    margin-top: 70px;
+    margin-right: 30px;
+    border-radius: 4px;
+
+    p {
+        margin-left: 10px;
+    }
+}
+
+
+.right__text_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 300px;
+    background: white;
+    margin-top: 100px;
+    border-radius: 4px;
+
+    p {
+        margin-left: 10px;
+    }
+}
+
+.right__text_three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 300px;
+    background: white;
+    margin-top: 30px;
+    margin-right: 30px;
+    border-radius: 4px;
+
+    p {
+        margin-left: 10px;
+    }
+}
+
+.right__text_four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 300px;
+    background: white;
+    margin-top: 60px;
+    border-radius: 4px;
+
+    p {
+        margin-left: 10px;
+    }
+}
+
+.footer{
+    display: flex;
+    flex: 0 0 auto;
+}
